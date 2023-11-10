@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".onbording">
+
+    <ImageView
+        android:id="@+id/txtcarot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/carot1"></ImageView>
+
+    <TextView
+        android:id="@+id/txtwelcome"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:text="Welcome to our store"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txtcarot"
+        android:textSize="48dp"></TextView>
+    <TextView
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get your groceries in as one hour"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_below="@+id/txtwelcome"
+        android:id="@+id/txtview2"
+        android:layout_marginBottom="40dp"
+        >
+    </TextView>
+    <Button
+        android:id="@+id/btn_get_started"
+        android:textColor="@color/white"
+        android:text="Get Started"
+        android:layout_width="353dp"
+        android:layout_height="67dp"
+        android:background="@drawable/custombtn"
+        android:layout_below="@+id/txtview2"
+        android:layout_centerHorizontal="true"
+        >
+    </Button>
+</RelativeLayout>
